@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  header{
+    height :50px;
+    width:100%;
+    text-align: right;
+    background-color: (176,196,222,0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .header-right a{
+    display: inline-block;
+    color:bisque;
+    padding-top: 12px;
+    padding-left: 3px;
+  }
+
+  .container{
+      width:1170px;
+      margin:auto;
+  }
+
+  .top-wrapper{
+      padding-top: 160px ;
+      background-image:url(https://cdn.discordapp.com/attachments/979283489683812355/983232069205377044/IMG_5285_Original.jpg);
+      color:seashell;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 600px;
+      text-align:center;
+  }
+
+  .top-wrapper h1{
+    opacity:0.85;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+
+  .top-wrapper p{
+    opacity:0.85;
+  }
+
+  .introduce{
+    transform: translateX(0) translateY(-10px);
+    width: auto;
+    height: 800px;
+    background-color: black;
+  }
+
+  .introduce h2{
+    font-size:50px;
+    text-align: center;
+    color:lightsalmon;
+  }
+
+  .card-container{
+    display: flex;
+    color:peachpuff;
+  }
+
+  .card-text h3{
+    color:peachpuff;
+    font-size: 30px;
+  }
+
+  .heading h3{
+    font-weight:normal;
+  }
+
+  .text_link a {
+    position: relative;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .text_link a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #b8b516;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+  }
+  
+  .text_link a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .lesson-wrapper {
+    transform: translateX(0) translateY(-20px);
+    height: 650px;
+    padding-bottom: 80px;
+    background-color: rosybrown;
+    text-align: center;
+  }
+
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: mistyrose;
+  }
+
+  .setumei{
+    color: #5f5d60;
+  }
+
+  .lesson-wrapper img{
+    width:250px;
+  }
